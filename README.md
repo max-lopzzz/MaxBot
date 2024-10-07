@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Usage
 To run the chatbot, execute the following command in your terminal:
 ```
-streamlit run <full pathname to Maxbot/front.py>
+streamlit run front.py
 ```
 Once running, you can interact with MaxBot by typing your questions in the console. Here are some example questions you can ask:
 - "What is your educational background?"
