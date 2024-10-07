@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Greetings", "What's up?", "Hi there", "Good morning", "Good afternoon", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What would you like to know about me?", "Hey! Feel free to ask me anything about my resume."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Introduce yourself", "What should I call you?", "Can you tell me your name?", "What do you go by?"],
+        "responses": ["My name is Maximiliano López Montaño, my pronouns are he/him, and I'm passionate about software development and technology."]
+      },
+      {
+        "tag": "contact",
+        "patterns": ["How can I contact you?", "What's your email address?", "Contact information", "Where can I find you online?", "Do you have any social media profiles?", "How can I get in touch with you?", "What's your contact info?"],
+        "responses": ["You can reach me via email at max.lopz.montn@gmail.com. I'm also on GitHub at https://github.com/max-lopzzz and LinkedIn at https://www.linkedin.com/in/max-lopezzz/."]
+      },
+      {
+        "tag": "languages",
+        "patterns": ["What languages do you speak?", "Do you speak any other languages?", "Which languages are you fluent in?", "Can you tell me about your language skills?", "How many languages do you know?"],
+        "responses": ["I'm a native Spanish speaker, grew up with English as a second language, and have a B1 level in German."]
+      },
+      {
+        "tag": "about_me",
+        "patterns": ["Tell me about yourself", "What do you do?", "Give me a summary about you", "Give me a brief introduction", "Who is Maximiliano López Montaño?", "What are your interests?", "What is your background?"],
+        "responses": ["I'm deeply passionate about software development and technology. I'm currently studying Engineering in Computer Technologies at Tecnológico de Monterrey. I've worked on projects like creating a real estate comparison tool and developing an optimal Pokémon battle team generator. Beyond academics, I'm a project coordinator for the Society of Students of Engineering in Computer Technologies and a collaborator for the Association for Inclusion, Respect and Equity, promoting respect for members of the LGBTQ+ community."]
+      },
+      {
+        "tag": "education",
+        "patterns": ["What is your educational background?", "Tell me about your education", "Where did you study?", "Where do you go to school?", "Which university are you attending?", "What are you studying?", "What degree are you pursuing?"],
+        "responses": ["I'm pursuing a Bachelor of Engineering in Computer Technologies at Tecnológico de Monterrey, expected to graduate in 2028. I also completed the International Baccalaureate Diploma Programme at PrepaTec Eugenio Garza Lagüera in 2024."]
+      },
+      {
+        "tag": "student_groups",
+        "patterns": ["Are you part of any student groups?", "What student organizations are you in?", "Tell me about your involvement in student groups", "Are you involved in any student organizations?", "What student activities are you a part of?", "Do you participate in any clubs or groups?"],
+        "responses": ["Yes, I'm actively involved in student groups like the Society of Students of Engineering in Computer Technologies (SAITC), where I serve as Project Coordinator. I'm also a member of the Tec Mountaineering Club (CMT), which allows me to pursue my love for mountain biking and outdoor activities. Additionally, I'm a collaborator in the Association for Inclusion, Respect and Equity (AIRE), promoting respect for the LGBTQ+ community within my campus."]
+      },
+      {
+        "tag": "skills",
+        "patterns": ["What skills do you have?", "Tell me about your skills", "What are your technical skills?", "What programming languages do you know?", "Can you list your skills?", "What are you good at?"],
+        "responses": ["I have strong skills in programming languages such as Python, Java, C++, and Swift. I also have a solid understanding of data structures and algorithms, debugging and testing skills, experience in task automation, custom software solutions, and effective teamwork and communication skills."]
+      },
+      {
+        "tag": "experience",
+        "patterns": ["Tell me about your experience", "What kind of projects have you worked on?", "Describe your work experience", "What projects have you led?", "Can you share your work experience?", "What roles have you held?"],
+        "responses": ["I've worked on projects like creating a real estate comparison tool and generating Pokémon battle teams. I was the Project Leader for initiatives like the Otomí Cultural Centre Renovation, School Supply Drives, and 'Plantando el Cambio'. I'm also involved with SAITC as a Project Coordinator and with AIRE promoting inclusivity."]
+      },
+      {
+        "tag": "honors_awards",
+        "patterns": ["Do you have any awards?", "What honors have you received?", "Tell me about your awards", "Have you been recognized for your work?", "What achievements do you have?", "What accolades have you received?"],
+        "responses": ["I've received several awards including the International Baccalaureate Diploma, Optimal Development Badge, Performance Diploma, Perseverance Diploma, Fraternity Diploma, and Messengers of Peace Award. These recognize my leadership, community service, academic achievements, and personal growth."]
+      },
+      {
+        "tag": "ib_diploma",
+        "patterns": ["What is the International Baccalaureate Diploma?", "Tell me about the IB Diploma", "What does the IB Diploma entail?", "Explain the International Baccalaureate Programme", "Details on your IB Diploma"],
+        "responses": ["The International Baccalaureate (IB) Diploma Programme is a two-year educational program aimed at students aged 16 to 19. It provides an internationally recognized qualification and focuses on developing critical thinking, intercultural understanding, and respect for others. I completed this program in July 2024, taking HL subjects in Spanish Literature, Business and Management, and Computer Science, and SL subjects in German, Physics, and Mathematics. I received an A on my Extended Essay, gaining skills in critical thinking, problem-solving, and a solid academic foundation in Computer Science."]
+      },
+      {
+        "tag": "optimal_development_badge",
+        "patterns": ["What is the Optimal Development Badge?", "Tell me about the Optimal Development Badge", "What does the Optimal Development Badge recognize?", "How did you earn the Optimal Development Badge?", "What is required for the Optimal Development Badge?", "Can you explain the Optimal Development Badge?"],
+        "responses": ["The Optimal Development Badge is awarded for achieving the highest level of personal development in the Walker Community, a scouting section for youth aged 15-17. I received this badge in May 2024 from the Asociación de Scouts de México A.C. The requirements included earning first-level competency badges in various areas, achieving a sustainable development badge, and participating actively for over two years."]
+      },
+      {
+        "tag": "performance_diploma",
+        "patterns": ["What is the Performance Diploma?", "Tell me about the Performance Diploma", "What does the Performance Diploma recognize?", "How did you earn the Performance Diploma?", "What are the criteria for the Performance Diploma?", "Can you explain the Performance Diploma?"],
+        "responses": ["The Performance Diploma, issued by the Asociación de Scouts de México A.C. in September 2023, recognizes leadership in two consecutive Scout sections. I served as Patrol Guide for the 'Lions' Patrol in the Troop section (ages 11-14) and founded and coordinated the 'Jeanne D'Arc' Team in the Walker Community (ages 15-17). This award acknowledges my dedication to leadership, teamwork, and collaboration."]
+      },
+      {
+        "tag": "perseverance_diploma",
+        "patterns": ["What is the Perseverance Diploma?", "Tell me about the Perseverance Diploma", "How did you earn the Perseverance Diploma?", "What does the Perseverance Diploma recognize?", "Explain the Perseverance award in Scouts"],
+        "responses": ["The Perseverance Diploma was awarded to me by the Asociación de Scouts de México A.C. in September 2023 for my active participation in both the Troop and Walker Community sections. It recognizes the development of skills such as teamwork, problem-solving, and leadership through years of engagement in scouting activities."]
+      },
+      {
+        "tag": "fraternity_diploma",
+        "patterns": ["What is the Fraternity Diploma?", "Tell me about the Fraternity Diploma", "What does the Fraternity Diploma recognize?", "How did you earn the Fraternity Diploma?", "What are the criteria for the Fraternity Diploma?", "Can you explain the Fraternity Diploma?"],
+        "responses": ["The Fraternity Diploma, issued by the Asociación de Scouts de México A.C. in September 2022, recognizes my efforts in leading community service projects that promote peace, unity, and well-being. I led initiatives, clean-up campaigns, and organized events aimed at fostering inclusivity and local development."]
+      },
+      {
+        "tag": "messengers_of_peace_award",
+        "patterns": ["What is the Messengers of Peace Award?", "Tell me about the Messengers of Peace Award", "What does the Messengers of Peace Award recognize?", "Are you a Messenger of Peace?", "How did you earn the Messengers of Peace Award?", "Can you explain the Messengers of Peace Award?"],
+        "responses": ["The Messengers of Peace Award was issued to me by the World Organization of the Scout Movement in September 2019. I received it for leading the renovation of the Lomas Modelo Community Center as part of the 'Better World Framework,' contributing to the UN Sustainable Development Goals (SDGs). This project included team leadership, securing sponsorships, organizing community events, and a toy drive for children."]
+      },
+      {
+        "tag": "extracurriculars",
+        "patterns": ["What extracurricular activities do you do?", "What do you do outside of school or work?", "Tell me about your hobbies", "Do you have any hobbies?", "Tell me about your interests beyond academics", "What are your leisure activities?", "What do you enjoy doing in your free time?"],
+        "responses": ["I'm actively involved in extracurriculars such as the Tec Mountaineering Club (CMT), where I enjoy mountain biking. I'm also passionate about drumming—especially as a metal drummer—and gaming, including Dungeons and Dragons. I've been involved in Scouting since I was 10, which has taught me leadership, teamwork, and community service."]
+      },
+      {
+        "tag": "scouting",
+        "patterns": ["Tell me about your scouting experience", "What do you do in scouts?", "Are you part of scouts?", "How has scouting influenced you?", "Are you a scout?", "What roles have you held in scouting?", "Can you share your scouting background?"],
+        "responses": ["Yes, I've been a Scout since I was 10. I served as Patrol Guide for the 'Lions' Patrol, and later founded and led the 'Jeanne D'Arc' team. My scouting experience has shaped my values in leadership, teamwork, and community service, leading to awards like the Optimal Development Badge and Messengers of Peace recognition."]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["Tell me about your projects", "What kind of projects have you led?", "What projects have you worked on?", "Do you have experience managing projects?", "What were some significant projects you have contributed to?", "Can you share some of the projects you've done?"],
+        "responses": ["I've led various projects including the renovation of the Otomí Cultural Centre, school supply drives, and 'Plantando el Cambio.' I developed a real estate comparison tool and a Pokémon battle team generator. Each project allowed me to apply my skills and collaborate with others in meaningful ways."]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "See you later", "Take care", "Farewell", "Catch you later", "Until next time"],
+        "responses": ["Goodbye! Feel free to reach out if you have more questions. Have a great day!", "See you later! I'm here whenever you need assistance."]
+      }
+    ]
+  }
+  
